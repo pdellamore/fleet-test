@@ -1,5 +1,5 @@
 helm:
-  chart: .                     # usa o chart local
+  chart: ./                     # usa o chart local
   values:
     env:
       PASSWORD: "supersecret123"
