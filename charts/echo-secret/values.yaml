@@ -1,0 +1,2 @@
+env:
+  PASSWORD: "supersecret_from_file"
