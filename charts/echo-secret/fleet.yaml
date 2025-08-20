@@ -1,5 +1,4 @@
 helm:
-  chart: ./                     # usa o chart local
-  values:
-    env:
-      PASSWORD: "supersecret123"
+  chart: ./
+  valuesFiles:
+    - config-chart/values.yaml
